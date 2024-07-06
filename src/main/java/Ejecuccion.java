@@ -11,7 +11,7 @@ public class Ejecuccion {
     String url = "https://www.banistmo.com/wps/portal/banistmo/personas/";
 
     public Ejecuccion() {
-        System.setProperty("webdriver.chrome.driver", "A:\\Users\\ledez\\IntelliJ IDEA\\Driver\\chromedriver-win64\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "A:\\Users\\veliz\\IntelliJ IDEA\\Driver\\chromedriver-win64\\chromedriver.exe");
         driver = new ChromeDriver();
     }
 
